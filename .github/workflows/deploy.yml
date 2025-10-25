@@ -72,5 +72,5 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: x429-website
           directory: dist
-          productionBranch: live
+          branch: live
 
