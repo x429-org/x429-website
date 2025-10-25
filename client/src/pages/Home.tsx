@@ -18,10 +18,10 @@ export default function Home() {
             <a href="#get-started" className="text-sm hover:text-accent transition-colors">Get Started</a>
           </nav>
           <div className="flex items-center gap-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+            <a href="https://github.com/x429" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors" title="GitHub">
               <Github className="w-5 h-5" />
             </a>
-            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+            <a href="https://discord.gg/5VpmgKGmf" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors" title="Discord">
               <MessageCircle className="w-5 h-5" />
             </a>
           </div>
@@ -48,13 +48,13 @@ export default function Home() {
               Convert HTTP 429 "Too Many Requests" responses into a micro-commerce opportunity. Let clients pay to raise limits dynamically—no waiting required.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#get-started">
+              <a href="https://docs.x429.org" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
                 <FileText className="w-4 h-4 mr-2" />
                 Read the Docs
               </Button>
             </a>
-            <a href="https://github.com/x429/x429" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/x429/x429-website" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
                 <Github className="w-4 h-4 mr-2" />
                 View on GitHub
@@ -266,13 +266,13 @@ X-Payment-Endpoint: https://api.example.com/x429/pay
                   Read the Docs
                 </Button>
               </a>
-              <a href="https://github.com/x429/x429" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/x429/x429-website" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
                   <Github className="w-4 h-4 mr-2" />
                   GitHub
                 </Button>
               </a>
-              <a href="https://discord.gg/x429" target="_blank" rel="noopener noreferrer">
+              <a href="https://discord.gg/5VpmgKGmf" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
                   <MessageCircle className="w-4 h-4 mr-2" />
                   Discord
@@ -296,24 +296,24 @@ X-Payment-Endpoint: https://api.example.com/x429/pay
             <div>
               <h4 className="font-semibold mb-4">Resources</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-accent transition-colors">Documentation</a></li>
-                <li><a href="#" className="hover:text-accent transition-colors">GitHub</a></li>
-                <li><a href="#" className="hover:text-accent transition-colors">Whitepaper</a></li>
+                <li><a href="https://docs.x429.org" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Documentation</a></li>
+                <li><a href="https://github.com/x429/x429-website" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">GitHub</a></li>
+                <li><a href="/whitepaper" className="hover:text-accent transition-colors">Whitepaper</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Community</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-accent transition-colors">Discord</a></li>
-                <li><a href="#" className="hover:text-accent transition-colors">Twitter</a></li>
-                <li><a href="#" className="hover:text-accent transition-colors">GitHub Discussions</a></li>
+                <li><a href="https://discord.gg/5VpmgKGmf" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Discord</a></li>
+                <li><a href="https://x.com/x429_org" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Twitter</a></li>
+                <li><a href="https://github.com/x429/x429-website/discussions" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">GitHub Discussions</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Related</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li><a href="https://x402.org" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors flex items-center gap-2">x402 Protocol <ExternalLink className="w-3 h-3" /></a></li>
-                <li><a href="#" className="hover:text-accent transition-colors">HTTP 402 Status</a></li>
+                <li><a href="https://tools.ietf.org/html/rfc7231#section-6.5.10" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">HTTP 402 Status</a></li>
               </ul>
             </div>
           </div>
