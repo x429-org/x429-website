@@ -1,3 +1,5 @@
+[![Deploy to Cloudflare Pages](https://github.com/x429-org/x429-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/x429-org/x429-website/actions/workflows/deploy.yml)
+
 # x429 Website
 
 The official website and documentation hub for **x429**, the open protocol for on-demand rate limit bypass.
